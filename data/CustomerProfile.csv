@@ -1,0 +1,5 @@
+ClientID,CompanyName,Industry,Employees,LicensesPurchased,ContractTenureMonths
+C001,MechInnovate Ltd,Automotive,500,120,24
+C002,AeroStruct Inc,Aerospace,350,80,18
+C003,BuildCore,Infrastructure,220,60,12
+C004,RapidTorque,Tooling,150,40,6

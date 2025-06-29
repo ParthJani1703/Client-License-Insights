@@ -1,0 +1,5 @@
+TicketID,ClientID,Date,IssueType,ResolutionTimeHours
+T001,C001,15-05-2025,Login Failure,3.5
+T002,C001,20-05-2025,License Activation,5.0
+T003,C003,22-05-2025,Bug Report,12.0
+T004,C004,01-06-2025,UI Crash,6.0

@@ -1,42 +1,41 @@
 # 📊 Client License Optimization & Risk Insights Dashboard
 
-This project combines business intelligence and data science principles to identify underutilized software licenses and proactively flag at-risk clients in the mechanical software space. Built using Python and Power BI, it showcases how data can drive strategic account management.
+This project merges business strategy with analytics to identify underutilized software licenses and proactively flag at-risk clients in the mechanical software industry. Using Python and Power BI, it simulates a real-world scenario account managers face in enterprise software sales.
 
-## 🧠 Goals
-- Optimize license usage across enterprise clients
-- Detect early churn signals based on usage, support trends, and engagement
-- Deliver actionable insights through visual dashboards
+## 🧠 Project Goals
+- Optimize license usage across clients by identifying idle inventory
+- Flag churn-prone accounts based on usage, support volume, and engagement gaps
+- Provide actionable insights for QBRs and retention efforts
 
-## 🛠️ Tools & Techniques
+## 🛠️ Tools & Technologies
 - Python (Pandas, Seaborn, Matplotlib)
-- Power BI for interactive dashboards
-- Data modeling with mock CSVs
+- Power BI for dashboards
+- Microsoft Excel & mock CSV data modeling
 
-## 🗃️ Data Overview
-| Dataset             | Description                                 |
-|---------------------|---------------------------------------------|
-| CustomerProfile     | Client size, industry, contracts, licenses  |
-| LicenseUsage        | User login logs by product and time         |
-| SupportTickets      | Ticket volume and average resolution time   |
-| EngagementData      | Meetings, demos, QBRs, follow-ups           |
+## 🗃️ Dataset Overview
+| Dataset          | Description                                 |
+|------------------|---------------------------------------------|
+| CustomerProfile  | Client metadata, industries, license counts |
+| LicenseUsage     | Product logins per user                     |
+| SupportTickets   | Support requests and resolution metrics     |
+| EngagementData   | Meetings, follow-ups, QBRs                  |
 
 ## 📈 Key Features
-- Tier segmentation based on license usage
-- “Engagement score” combining qualitative customer activity
-- Rule-based risk logic combining low usage, low engagement, and high support
-- Idle license heatmaps, usage trends, and risk flags in dashboard
+- Usage-based tiering (top 20%, bottom 20%)
+- Rule-based churn prediction logic
+- Engagement score modeling
+- Power BI dashboard with custom KPIs, filters, and visual storytelling
 
-## 💡 Insights Generated
-- 30% of purchased licenses idle across 4 major clients
-- High support volume correlates with low engagement in 2 accounts
-- 25% of clients flagged as “⚠️ At Risk” based on behavioral signals
+## 💡 Insights Unlocked
+- 30% of software licenses remain unused across top accounts
+- Risk-prone clients show low touchpoints and high support volume
+- Rule-based flags identified 25% of accounts needing retention action
 
-## 🎯 Future Scope
-- Add churn prediction models using Scikit-learn
-- Live CRM/ERP integration with Power BI API connectors
-- Expand to include ARR impact and upsell forecasting
+## 🔗 Files
+- `/notebooks/ClientLicenseAnalysis.ipynb`
+- `/dashboard/License_Risk_Dashboard.pbix`
+- `/data/*.csv` mock input files
 
----
-
-⚙️ Project developed and maintained by [Parth Jani](#).  
-📎 All data used is fictional and created for demonstration purposes.
+## 📎 Author
+Developed by [Parth Jani](#), Account Manager | Data & Digital Transformation Learner  
+_This is a self-initiated portfolio project using fictional data for demonstration purposes._
